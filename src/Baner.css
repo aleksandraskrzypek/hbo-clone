@@ -1,0 +1,137 @@
+.baner-posters{
+   
+    display: flex;
+    justify-content: space-between;
+
+    background-color: black;
+}
+
+.baner-posters-dwa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.baner-jeden{
+    background-size: cover;
+    height: 450px;
+    width: 24.5vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+}
+.baner-dwa{
+    background-size: cover;
+    height: 220px;
+    width: 24.5vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+}
+.baner-trzy{
+    background-size: cover;
+    height: 220px;
+    width: 24.5vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+}
+.baner-cztery{
+    background-size: cover;
+    height: 450px;
+    width: 24.5vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+}
+.baner-piec{
+    background-size: cover;
+    height: 220px;
+    width: 24.5vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+}
+.baner-szesc{
+    background-size: cover;
+    height: 220px;
+    width: 24.5vw;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+}
+
+.baner-rejestracja{
+    font-family: 'Rubik', sans-serif;
+    
+    height: 250px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.baner-rejestracja>.first{
+    color: white;
+    font-size: 40px;
+}
+
+.baner-rejestracja>.second{
+    color: white;
+    font-size: 20px;
+}
+
+.button-rejestracja{
+    height: 50px;
+    width: 230px;
+    margin-top: 20px;
+
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(225, 152, 26);
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 1px 0px #0000005b;
+
+    cursor: pointer;
+}
+
+.button-rejestracja:hover{
+    background-color: rgb(250, 177, 51);
+}
+
+.baner-foot{
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(36, 36, 36);
+    
+    height: 220px;
+}
+.baner-foot-czesc{
+    width: 31vw;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+
+    padding-top: 15px;
+}
+
+.baner-foot-czesc>.baner-foot-first{
+    color: white;
+    font-size: 25px;
+}
+
+.baner-foot-czesc>.baner-foot-second{
+    color: white;
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.button-foot{
+    height: 40px;
+    width: 200px;
+    margin-top: 15px;
+
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(225, 152, 26);
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 1px 0px #0000005b;
+
+    cursor: pointer;
+}
+
+.button-foot:hover{
+    background-color: rgb(250, 177, 51);
+}

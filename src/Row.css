@@ -1,0 +1,324 @@
+.row{
+    background-color: black;
+}
+.row-posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.row-poster{
+    object-fit: cover;
+    width: 180px;
+    height: 250px;
+    
+    transition: transform 450ms;
+    box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7);
+
+    border-radius: 5px;
+}
+
+.row-posters::-webkit-scrollbar{
+    display: none;
+}
+
+.row-posterLarge{
+    max-height: 250px;
+}
+
+.row-najczesciej{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.row-najczesciej-harry{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.row-najczesciej-disney{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    
+    background-image: url("disney.jpg");
+    background-size: cover;
+}
+
+.row-najczesciej>p{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+}
+
+.title-movie{
+    padding-top:5px;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    overflow: hidden;
+    text-overflow: clip; 
+    white-space: nowrap; 
+    width: 180px; 
+
+    
+}
+
+.arrow{
+    color:white
+}
+
+.row-poster-hobbit{
+    object-fit: cover;
+    width: 300px;
+    height: 150px;
+    transition: transform 450ms;
+
+    border-radius: 5px;
+}
+
+.row-poster-images-hobbit{
+
+    width: 300px;
+    height: 150px;
+    margin-right: 25px;
+ 
+    border:1px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.title-movie-hobbit{
+    padding-top:5px;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    overflow: hidden;
+    text-overflow: clip; 
+    white-space: nowrap; 
+    width: 300px; 
+}
+
+.row-najczesciej>h2{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+}
+
+.row-najczesciej-harry>h5{
+    padding-bottom: 5px;
+    padding-top: 40px;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+}
+
+.row-najczesciej-harry>p{
+    color:rgba(255, 255, 255, 0.568);
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.image-logo-disney{
+    height: 150px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.subskrybuj{
+    margin-top: 30px;
+    height: 170px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.subskrybuj-top{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.subskrybuj-bottom{
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.subskrybuj-button-left{
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(225, 152, 26);
+    color: white;
+    font-size: 17px;
+    text-shadow: 2px 1px 0px #0000005b;
+
+    cursor: pointer;
+}
+
+.subskrybuj-button-left:hover{
+    background-color: rgb(250, 177, 51);
+}
+
+.subskrybuj-button-right{
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+
+    border-radius: 7px;
+    border: 1px solid rgb(225, 152, 26);
+    background-color: rgb(36, 36, 36);
+    color: white;
+    font-size: 17px;
+
+    cursor: pointer;
+}
+
+.ulubione-urzadzenia{
+    padding-top: 50px;
+}
+
+.ulubione-urzadzenia-tytul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+
+.ulubione-urzadzenia-tytul>h1{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.ulubione-urzadzenie-pasek{
+    border:1px solid rgb(36, 36, 36);
+    width: 25vw;
+}
+
+.ulubione-urzadzenie-images{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.ulubione-urzadzenie>p{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 10px;
+}
+
+.ulubione-urzadzenie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dlaczego-kochaja{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 25px;
+    background-color: rgb(36, 36, 36);
+}
+
+.dlaczego-kochaja-reszta{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+.dlaczego-kochaja-tytul{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+
+.dlaczego-kochaja-button{
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(225, 152, 26);
+    color: white;
+    font-size: 17px;
+    text-shadow: 2px 1px 0px #0000005b;
+
+    cursor: pointer;
+}
+
+.dlaczego-kochaja-button:hover{
+    background-color: rgb(250, 177, 51);
+}
+
+.button-dlaczego{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.row-poster{
+    transition: all 0.2s;
+}
+
+.row-poster:hover{
+    opacity: 0.3;
+}
+
+
+.row-poster-images{
+    width: 180px;
+    height: 250px;
+    margin-right: 25px;
+ 
+    border:1px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.row-poster-images:hover{
+    border:1px solid rgb(0, 145, 234);
+    cursor: pointer;
+}
+
+.row-poster-images-hobbit:hover{
+    border:1px solid rgb(0, 145, 234);
+    cursor: pointer;
+}
+
+.row-poster-hobbit:hover{
+    opacity: 0.3;
+}
+
+
+
+  
+
+
